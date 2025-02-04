@@ -22,6 +22,14 @@ body:
       label: Revit Version
       description: What version of Revit are you using?
       options:
+        - 2025.4.x
+        - 2025.3.x
+        - 2025.2.x
+        - 2025.1.x
+        - 2025.0.x
+        - 2024.3.x
+        - 2024.2.x
+        - 2024.1.x
         - 2024.0.x
         - 2023.1.x
         - 2023.0.x
@@ -36,13 +44,23 @@ body:
       label: IFC for Revit Addon Version
       description: What version of the IFC for Revit addon are you using?
       options:      
-        - 24.x.x
+        - 25.4.0
+        - 25.2.0
+        - 24.3.2
+        - 24.2.2
+        - 24.2.0
+        - 24.1.1
         - 24.1.0
+        - 23.4.1
+        - 23.4.0
+        - 23.3.1
+        - 23.3.0
         - 23.2.5
         - 23.2.4
         - 23.2.3
         - 23.1.1
         - 23.1.0
+        - 22.7.0
         - 22.6.2
         - 22.6.1
         - 22.6.0
@@ -59,6 +77,8 @@ body:
       label: Windows Version
       description: What version of Windows are you using?
       options:
+        - 11 24H2
+        - 11 23H2
         - 11 22H2
         - 11 21H2
         - 10 22H2
