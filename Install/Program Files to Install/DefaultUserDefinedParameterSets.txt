@@ -7,12 +7,14 @@
 #	<Property Name 2>	<Data type>	<[opt] Revit parameter name, if different from IFC>
 #	...
 #
-# Data types supported: Area, Boolean, ClassificationReference, ColorTemperature, Count, Currency, 
-#	ElectricalCurrent, ElectricalEfficacy, ElectricalVoltage, Force, Frequency, Identifier, 
-#	Illuminance, Integer, Label, Length, Logical, LuminousFlux, LuminousIntensity, 
-#	NormalisedRatio, PlaneAngle, PositiveLength, PositivePlaneAngle, PositiveRatio, Power, 
-#	Pressure, Ratio, Real, Text, ThermalTransmittance, ThermodynamicTemperature, Volume, 
-#	VolumetricFlowRate
+#	Data types supported: Acceleration, AngularVelocity, Area, AreaDensity, Boolean, ClassificationReference, ColorTemperature, Count, Currency,
+#	DynamicViscosity, ElectricCurrent, ElectricVoltage, Energy, ElectricalEfficacy, Force, Frequency, HeatFluxDensity, 
+#	HeatingValue, Identifier, Illuminance, Integer, IonConcentration, IsothermalMoistureCapacity, Label, Length,
+#	LinearForce, LinearMoment, LinearStiffness, LinearVelocity, Logical, LuminousFlux, LuminousIntensity, Mass, MassDensity, MassFlowRate, MassPerLength
+#	ModulusOfElasticity, MoistureDiffusivity, MomentOfInertia, NormalisedRatio, Numeric, PlanarForce, PlaneAngle,
+#	PositiveLength, PositivePlaneAngle,PositiveRatio, Power, Pressure, Ratio, Real, RotationalFrequency,
+#	SoundPower, SoundPressure, SpecificHeatCapacity, Text, ThermalConductivity, ThermalExpansionCoefficient, ThermalResistance
+#	ThermalTransmittance, ThermodynamicTemperature, Time, Torque, VaporPermeability, Volume, VolumetricFlowRate, WarpingConstant
 # 
 # Since 24.1.0, type properties are not exported in case they are not specified in the user-defined property sets file.
 #	To export type properties for the IFCElement, for example, 
